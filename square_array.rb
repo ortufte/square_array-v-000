@@ -1,6 +1,6 @@
 def square_array(numbers)
   squares = [ ]
-  numbers.collect {do |number|}
+  numbers.collect {|number|}
     squares << number*number
   end
   squares
