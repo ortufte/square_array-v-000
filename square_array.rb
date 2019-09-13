@@ -1,6 +1,4 @@
-def square_array
-  squares = [ ]
-  array.each {|i| squares << i*i}
-end
-  squares
+def square_array(numbers)
+  array.each {|number|number*number}
+  end
 end
