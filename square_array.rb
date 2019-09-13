@@ -1,3 +1,7 @@
 def square_array(numbers)
-  numbers.each! {|number| number*number}
+  squares = [ ]
+  numbers.each do |number|
+    squares << number*number
+  end
+  squares
 end
